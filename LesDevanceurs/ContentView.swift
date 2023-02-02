@@ -90,7 +90,8 @@ struct ContentView: View {
                 print(error.localizedDescription)
             }
             audioPlayer.play()
-        print("This works")
+            audioPlayer.numberOfLoops = -1
+            print("This works")
         }
 }
     struct ContentView_Previews: PreviewProvider {
