@@ -15,7 +15,6 @@
 		C90CA2232988299300849C44 /* LesDevaceursUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90CA2222988299300849C44 /* LesDevaceursUITests.swift */; };
 		C90CA2252988299300849C44 /* LesDevanceursUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90CA2242988299300849C44 /* LesDevanceursUITestsLaunchTests.swift */; };
 		C99D2F2C298C163C00DA3E0A /* AvengersTest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C99D2F2B298C163C00DA3E0A /* AvengersTest.mp3 */; };
-		C99D2F2E298C1D1100DA3E0A /* AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D2F2D298C1D1100DA3E0A /* AVFoundation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 		C90CA2222988299300849C44 /* LesDevaceursUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesDevaceursUITests.swift; sourceTree = "<group>"; };
 		C90CA2242988299300849C44 /* LesDevanceursUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesDevanceursUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C99D2F2B298C163C00DA3E0A /* AvengersTest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AvengersTest.mp3; path = ../../../../../Downloads/AvengersTest.mp3; sourceTree = "<group>"; };
-		C99D2F2D298C1D1100DA3E0A /* AVFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 			children = (
 				C90CA2072988299200849C44 /* LesDevanceursApp.swift */,
 				C90CA2092988299200849C44 /* ContentView.swift */,
-				C99D2F2D298C1D1100DA3E0A /* AVFoundation.swift */,
 				C99D2F2B298C163C00DA3E0A /* AvengersTest.mp3 */,
 				C90CA20B2988299300849C44 /* Assets.xcassets */,
 				C90CA20D2988299300849C44 /* Preview Content */,
@@ -265,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90CA20A2988299200849C44 /* ContentView.swift in Sources */,
-				C99D2F2E298C1D1100DA3E0A /* AVFoundation.swift in Sources */,
 				C90CA2082988299200849C44 /* LesDevanceursApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

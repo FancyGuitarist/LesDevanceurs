@@ -49,6 +49,15 @@ struct ContentView: View {
                         .frame(width: 250, height: 50)
                         .background(RoundedRectangle(cornerRadius: 20).fill(Color.white).shadow(radius: 3))
                 }
+                Link(destination: URL(string: "https://docs.google.com/spreadsheets/d/1IUGNBnPWAaIIWXL4b_7G-qC45nvPlyeQry1gDlxJ1mM/edit?usp=sharing")!) {
+                    Text("Les Retardés")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                        .frame(width: 250, height: 50)
+                    .background(RoundedRectangle(cornerRadius: 20).fill(Color.white).shadow(radius: 3))}
                 Spacer()
                 Text("Overleaf")
                     .font(.largeTitle)
